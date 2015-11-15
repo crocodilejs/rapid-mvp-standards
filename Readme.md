@@ -44,12 +44,19 @@ Its purpose is to help you define standards and to achieve greatness with your t
 
 ## Types of Standards
 
-I have divided project standards into three categories:
+I have divided project standards into ten (10) categories:
 
 * Tools - what tools and services are used to power communication, the app, and the team
 * Development - ensuring the code is functional, tested, clean, to industry standards (relative to the programming language) and optimized for performance
 * Design - ensuring the UI/UX is distinct, functional and fitting with the market and customer
 * Project Management - interaction with clients, customers, and product team
+* Launch - ensuring a successful launch and initial marketing push to validate the project
+* Testing - ensuring tests are written properly, actually useful, and used
+* Analysis - ensuring metrics and data is being analyzed and is then turned into useful and meaningful items
+* Growth - ensuring the project is continously growing
+* Funding - ensuring the project can stay alive
+* Random - random bits of information to help ensure a positive project life cycle
+
 
 ## Tool Standards
 
@@ -69,9 +76,10 @@ I have divided project standards into three categories:
 * Segment - for analytics tracking
 * Google Analytics and Mixpanel (hooked into Segment) - for basic site metrics
 
-Total cost of essential tools per month: $45/mo
-Other yearly costs: $22
-Total estimated yearly costs: $562 ($45\*12 + $22)
+Total cost of essential tools per month: $45/mo<br />
+Other yearly costs: $22<br />
+Total estimated yearly costs: $562 ($45\*12 + $22)<br />
+
 
 ## Development Standards
 
@@ -100,6 +108,7 @@ Total estimated yearly costs: $562 ($45\*12 + $22)
 * Is our API designed properly with versioning, error handling, proper response codes, ease of integration, secure, and is documented?  Is the documentation up to date?
 * Are we monitoring our server uptime and downtime?  What parts of our application are the slowest to respond?  What parts of our application take up the most CPU usage?  Investigate why and optimize.  Things need to be lightning fast, everywhere, always.  Speed wins.
 
+
 ## Design Standards
 
 * Do not create mockups (in other words don't waste time conversing with developers or the client about how something should look, tell them how it is going to look) - designers should be experts and know exactly what to design without needing a mockup.  Based off R&D and market research, they, as designers, have the responsibility for this vision.
@@ -108,6 +117,7 @@ Total estimated yearly costs: $562 ($45\*12 + $22)
 * Designs must be synced to development team via Dropbox, all changes need to be published and a changelog must be sent to developers upon changes
 * Developers must have experience with Sketch, in case the need of a quick export or to check the rgba/hex values during integration of a design.
 * Are our assets exported and progressively optimized (and any other optimal reduction of file size taken place)?
+
 
 ## Project Management Standards
 
@@ -138,6 +148,7 @@ Total estimated yearly costs: $562 ($45\*12 + $22)
 * Are we charging what we're worth?  Are we paying ourselves what we deserve and need?
 * How satisfied is the client/customer? (e.g. Net Promoter score - survey - weekly/monthly)
 
+
 ## Launch Standards
 
 * Did we have a mailing list or splash page in advance?  Is our message ready for them?  Does our message make sense?
@@ -148,6 +159,7 @@ Total estimated yearly costs: $562 ($45\*12 + $22)
 * How will our initial launch convert people to users?  Will we blast out 1000 emails and get no users?  If we can envision this occuring, what can we change that will fix this?
 * Is our explanation of the product too complicated?  Do we compare ourselves to competitors as to why we're better?  Or what features we have that they don't have?  Or what new offerings we bring that are value-adds for users?
 
+
 ## Testing Standards
 
 * Does our production server get tested before deployment finishes?
@@ -155,6 +167,7 @@ Total estimated yearly costs: $562 ($45\*12 + $22)
 * Are we actively deploying our test cases to production or keeping them in development branch only?
 * Are tests above 50%?  If so, how could we get them to 75%?  If they are at 75%, what is preventing them from being 100%?
 * Are we using the best testing tools available?
+
 
 ## Analysis Standards
 
@@ -168,6 +181,7 @@ Total estimated yearly costs: $562 ($45\*12 + $22)
 * How are our A/B tests performing?
 * Are we running at least 5 experiments/tests a week?
 
+
 ## Growth Standards
 
 * How is our search engine optimization?  Are all pages recorded in a sitemap?  Is it submitted to Google?  Do all pages have Schema.org schemas (e.g. Product, Recipe, Event)? Are page titles and descriptions simple and relevant? (max 55 characters for title and 115 for description)
@@ -175,6 +189,7 @@ Total estimated yearly costs: $562 ($45\*12 + $22)
 * Are we experimenting enough?  Do our experiments make sense and have we thought them through?
 * Are we paying attention to user retention?  Are we targeting segments of customers that have been inactive to figure out why?  Are we asking or reviewing what the power-users are doing on the app and how to make that experience easier?  Power-users are a very special and meaningful user segment, possibly the most meaningful - they will most likely pay the most.  Are we automating our messages to users with a service like Intercom - and not coming across like spammers?
 * Are we doing research as to what strategies have worked for other similar companies to attract users?
+
 
 ## Funding Standards
 
@@ -185,6 +200,7 @@ Total estimated yearly costs: $562 ($45\*12 + $22)
 * Usually you can bootstrap the project entirely, but only if you are smart enough.  The topic of bootstrapped/lifestyle vs. VC funding can be handled in another medium.
 * Can we get 3 clients to pay $K up-front that will support us?  Can we reward them for this if things work out?  Do they get a refund if it doesn't?
 * How can we sell vaporware and deliver quickly?
+
 
 ## Random Standards
 
