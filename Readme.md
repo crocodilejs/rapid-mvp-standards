@@ -75,6 +75,7 @@ I have divided project standards into ten (10) categories:
 * MailChimp - for blast newsletter emails
 * Segment - for analytics tracking
 * Google Analytics and Mixpanel (hooked into Segment) - for basic site metrics
+* Dropbox - for file sharing (mainly design assets)
 
 Total cost of essential tools per month: $45/mo<br />
 Other yearly costs: $22<br />
