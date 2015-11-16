@@ -53,7 +53,7 @@ I have divided project standards into ten (10) categories:
 * Launch - ensuring a successful launch and initial marketing push to validate the project
 * Testing - ensuring tests are written properly, actually useful, and used
 * Analysis - ensuring metrics and data is being analyzed and is then turned into useful and meaningful items
-* Growth - ensuring the project is continously growing
+* Growth - ensuring the project is continuously growing
 * Funding - ensuring the project can stay alive
 * Random - random bits of information to help ensure a positive project life cycle
 
@@ -128,10 +128,10 @@ Total estimated yearly costs: $562 ($45\*12 + $22)<br />
 * Are we using common sense in our communications and interactions with the team and customer/client?
 * Are we keeping in check with existing commitments made by team members, by the client, by ourself?
 * Is any work (e.g. a product feature) being worked on a complete waste of time and will not contribute to a positive end result?
-* Are we continously reviewing offers and satisfaction levels based off requests and communictions made?
+* Are we continuously reviewing offers and satisfaction levels based off requests and communications made?
 * What is the team's current mood?  What has their mood been in the past?  How has it related to productivity and growth, success, etc?
 * What is the customer or client's mood?  How has their mood related to their purchases, or use of the app?  How has their mood related to their communication level?  When they are distant - does that mean they are unhappy?  Communication issues are extremely common.
-* Are we constantly showing continous progress?  If not, or if we don't think we can - think of visuals or other meaningful ways to show progress (e.g. screenshots, a quick video narrating what you're working on - even if its showing code, or a feature work in progress, etc)
+* Are we constantly showing continuous progress?  If not, or if we don't think we can - think of visuals or other meaningful ways to show progress (e.g. screenshots, a quick video narrating what you're working on - even if its showing code, or a feature work in progress, etc)
 * Keep the burn rate low - do not use or pay for services you don't use - or don't need - or don't directly impact the project
 * Weekly meetings with the client in-person/face-to-face using Google Hangouts
 * Continuously send and respond to emails, as soon as you see them - even if it just to say "OK got it, expect a response soon"
@@ -145,7 +145,7 @@ Total estimated yearly costs: $562 ($45\*12 + $22)<br />
 * Are issues being referenced to one another when appropriate?
 * Does a team member always have a plate of at least 2-3 items assigned to them in GitHub at a time?
 * Does the project manager frequently comment on issues, even if it's just to say "good job?" or "I think the pixels are in this are wrong, please talk to designer", or "The code here needs refactored, its a mess"
-* Is the communication in the Slack room with the client (or is our communication with our customer over email too confusing or wordy?).  If so, it gives the impression we are unorganized, not succinct, and don't know how to get our point across in an analagous way.  Cut out as many words as possible when communicating with the client or customer - we want to seem as confident, focused, and clear as possible.  Are we actually answering their questions?
+* Is the communication in the Slack room with the client (or is our communication with our customer over email too confusing or wordy?).  If so, it gives the impression we are unorganized, not succinct, and don't know how to get our point across in an analogous way.  Cut out as many words as possible when communicating with the client or customer - we want to seem as confident, focused, and clear as possible.  Are we actually answering their questions?
 * Are we charging what we're worth?  Are we paying ourselves what we deserve and need?
 * How satisfied is the client/customer? (e.g. Net Promoter score - survey - weekly/monthly)
 
@@ -157,7 +157,7 @@ Total estimated yearly costs: $562 ($45\*12 + $22)<br />
 * Who or what marketing effort will we leverage to give the project the initial push it needs - to acquire users in order to validate the product is a good market-fit?
 * Are we even ready to launch?  Does the product even make sense to people that haven't seen it before?
 * When we explain our product to someone else, or show them a demo - do they simply say "cool" or "OK"?  Or are they asking lots of questions - if they are, it means we're doing something right, so listen to them.  What were their questions and how can we answer it ahead of time for everyone else like them?
-* How will our initial launch convert people to users?  Will we blast out 1000 emails and get no users?  If we can envision this occuring, what can we change that will fix this?
+* How will our initial launch convert people to users?  Will we blast out 1000 emails and get no users?  If we can envision this occurring, what can we change that will fix this?
 * Is our explanation of the product too complicated?  Do we compare ourselves to competitors as to why we're better?  Or what features we have that they don't have?  Or what new offerings we bring that are value-adds for users?
 
 
