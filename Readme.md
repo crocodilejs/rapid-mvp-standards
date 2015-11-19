@@ -1,7 +1,7 @@
 
 # Rapid MVP Standards
 
-> TLDR; This is a no-BS document defining rapid MVP standards.  It is based on my experiences, successes/failures over the past eight years in leading a rapid MVP startup/project/team, hyper-focused on apps.  This perspective of "success" and "failure" is purely based on ability to rapidly ship an MVP and test its viability - it is not based on any other factors, such as revenue.  Comments and pull requests are welcome.  Enjoy.
+> TLDR; This is a no-BS document defining rapid MVP standards.  It is based on my experiences, successes/failures over the past eight years in leading a rapid MVP startup/project/team, hyper-focused on apps.  This perspective of "success" and "failure" is purely based on ability to rapidly ship an MVP and test its viability - it is not based on any other factors, such as revenue.  Comments and pull requests are welcome.  Enjoy.  [Sponsored by Clevertech](http://clevertech.biz?ref=niftylettuce).
 
 ## Index
 
