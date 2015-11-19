@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Rapid-mvp-standards by niftylettuce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Rapid-mvp-standards</h1>
+      <h2 class="project-tagline">Rapid MVP Standards for App Development, Design, Project Management, Launch, Testing, Analysis, Growth, and Funding</h2>
+      <a href="https://github.com/niftylettuce/rapid-mvp-standards" class="btn">View on GitHub</a>
+      <a href="https://github.com/niftylettuce/rapid-mvp-standards/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/niftylettuce/rapid-mvp-standards/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="rapid-mvp-standards" class="anchor" href="#rapid-mvp-standards" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rapid MVP Standards</h1>
+
+<blockquote>
+<p>TLDR; This is a no-BS document defining rapid MVP standards.  It is based on my experiences, successes/failures over the past eight years in leading a rapid MVP startup/project/team, hyper-focused on apps.  This perspective of "success" and "failure" is purely based on ability to rapidly ship an MVP and test its viability - it is not based on any other factors, such as revenue.  Comments and pull requests are welcome.  Enjoy.</p>
+</blockquote>
+
+<h2>
+<a id="index" class="anchor" href="#index" aria-hidden="true"><span class="octicon octicon-link"></span></a>Index</h2>
+
+<ul>
+<li><a href="#background">Background</a></li>
+<li><a href="#types-of-standards">Types of Standards</a></li>
+<li><a href="#tool-standards">Tool Standards</a></li>
+<li><a href="#development-standards">Development Standards</a></li>
+<li><a href="#design-standards">Design Standards</a></li>
+<li><a href="#project-management-standards">Project Management Standards</a></li>
+<li><a href="#launch-standards">Launch Standards</a></li>
+<li><a href="#testing-standards">Testing Standards</a></li>
+<li><a href="#analysis-standards">Analysis Standards</a></li>
+<li><a href="#growth-standards">Growth Standards</a></li>
+<li><a href="#funding-standards">Funding Standards</a></li>
+<li><a href="#random-standards">Random Standards</a></li>
+</ul>
+
+<h2>
+<a id="background" class="anchor" href="#background" aria-hidden="true"><span class="octicon octicon-link"></span></a>Background</h2>
+
+<p>The lifecycle of a project is typically short-lived, stressful, and uncertain.</p>
+
+<p>This is due to various reasons related to internal (team/culture) and external (product/market-fit) problems.</p>
+
+<p>Usually (from my experience), failure is a result of not focusing on what users want; not focusing on the core MVP product – and getting distracted along the way.</p>
+
+<p>Failure is not due to a lack of funding.  Funding for a project is easily obtained (if team is stellar, product is solid, and product-market fit is spot on).</p>
+
+<p>Failure is due to a lack of focus, dedication, and relentless shipping as fast as humanly possible (your health is definitely affected).</p>
+
+<p>Failure is due to not thoroughly testing the project, the functionality, the core features.</p>
+
+<p>Failure is due to giving up, to not staying committed, to not ensuring the team is dedicated.</p>
+
+<p>Failure is due to not planning in advance, not thinking ahead, not expecting the unexpected.</p>
+
+<p>The purpose of this document is to inspire, to serve as a guide – and to add whimsical enthusiasm for a successful project.</p>
+
+<p>Its purpose is to help you define standards and to achieve greatness with your team while building apps in the quickest amount of time possible.</p>
+
+<h2>
+<a id="types-of-standards" class="anchor" href="#types-of-standards" aria-hidden="true"><span class="octicon octicon-link"></span></a>Types of Standards</h2>
+
+<p>I have divided project standards into ten (10) categories:</p>
+
+<ul>
+<li>Tools - what tools and services are used to power communication, the app, and the team</li>
+<li>Development - ensuring the code is functional, tested, clean, to industry standards (relative to the programming language) and optimized for performance</li>
+<li>Design - ensuring the UI/UX is distinct, functional and fitting with the market and customer</li>
+<li>Project Management - interaction with clients, customers, and product team</li>
+<li>Launch - ensuring a successful launch and initial marketing push to validate the project</li>
+<li>Testing - ensuring tests are written properly, actually useful, and used</li>
+<li>Analysis - ensuring metrics and data is being analyzed and is then turned into useful and meaningful items</li>
+<li>Growth - ensuring the project is continuously growing</li>
+<li>Funding - ensuring the project can stay alive</li>
+<li>Random - random bits of information to help ensure a positive project life cycle</li>
+</ul>
+
+<h2>
+<a id="tool-standards" class="anchor" href="#tool-standards" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tool Standards</h2>
+
+<ul>
+<li>Gmail - for email ($5/user/mo - assuming 3 users = $15/mo)</li>
+<li>Google Calendar - for scheduling/meetings/reminders</li>
+<li>Digital Ocean or Linode - for servers (do not use AWS, it's a joke - other than CloudFront and S3, it is not useful for a scrappy/fast-paced startup) ($10/mo)</li>
+<li>Namecheap - for domain ($11/yr)</li>
+<li>RapidSSL - for SSL cert ($11/yr)</li>
+<li>AWS Route 53 - for DNS</li>
+<li>Slate - for API documentation</li>
+<li>Slack - for team chat and quick reminders using Slackbot (you can usually get $100 in free credit, which is more than enough time to get the project off the ground)</li>
+<li>Stripe - for payments</li>
+<li>GitHub - for code repository and issue tracking ($20/mo for organization)</li>
+<li>CircleCI - for continuous iteration</li>
+<li>Postmark (or Mandrill) - for transactional emails</li>
+<li>MailChimp - for blast newsletter emails</li>
+<li>Segment - for analytics tracking</li>
+<li>Google Analytics and Mixpanel (hooked into Segment) - for basic site metrics</li>
+<li>Dropbox - for file sharing (mainly design assets)</li>
+</ul>
+
+<p>Total cost of essential tools per month: $45/mo<br>
+Other yearly costs: $22<br>
+Total estimated yearly costs: $562 ($45*12 + $22)<br></p>
+
+<h2>
+<a id="development-standards" class="anchor" href="#development-standards" aria-hidden="true"><span class="octicon octicon-link"></span></a>Development Standards</h2>
+
+<ul>
+<li>"RFA" - readme first approach - document in a Markdown file your plans for a project, include everything you can think of.  Spend at least 2 weeks on this.</li>
+<li>Code must be linted (while development is in progress, on file save, a linter must be run)</li>
+<li>All errors must be caught and handled, regardless of confidence in code</li>
+<li>Open source packages used must not allowed to be automatically upgraded</li>
+<li>Development environment must be minimal and fast - must use Mac or Ubuntu</li>
+<li>App must be tested on all of the latest devices/browsers/clients to market fit</li>
+<li>Developers must use vim (with as many plugins as possible) - no other IDE's should be allowed (a developer's finger muscle memory is critical to fast-paced coding – point-and-click is simply wrong and not optimal for productivity).  Atom may be used, however plugins are necessity.</li>
+<li>SSL encryption regardless if the service needs to be secure or not, encryption is important</li>
+<li>If the service includes anything financially related, use a Green EV SSL cert</li>
+<li>For code commits, use emoji prefixes, such as <img class="emoji" title=":book:" alt=":book:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4d6.png" height="20" width="20" align="absmiddle"> for documentation, <img class="emoji" title=":bug:" alt=":bug:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f41b.png" height="20" width="20" align="absmiddle"> for bugs, <img class="emoji" title=":ledger:" alt=":ledger:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4d2.png" height="20" width="20" align="absmiddle"> for renaming/moving/copying of files, <img class="emoji" title=":bulb:" alt=":bulb:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a1.png" height="20" width="20" align="absmiddle"> for features, and <img class="emoji" title=":lipstick:" alt=":lipstick:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f484.png" height="20" width="20" align="absmiddle"> for code style fixes/refactoring</li>
+<li>Deployments should have zero downtime</li>
+<li>Deployments should occur with tagged versions (e.g. <code>v0.1.0</code>)</li>
+<li>Automated jobs should be managed with lock files or a system that spawns workers with specific deployment versions</li>
+<li>Regarding frameworks - I almost always suggest to go with the most minimal to start.  Don't worry about trying to invent the best framework; just use what works.  You can optimize and implement a new framework if the product really takes off.  Of course, don't pick something that is slow and painful to use.</li>
+<li>Deployments should have tagged versions with a <code>v</code> prefix and abide by semver versioning practices</li>
+<li>Are our assets minified, gzipped, concatenated, and served from CloudFront?</li>
+<li>Is the server locked down heavily? (e.g. all ports blocked except 80/443, fail2ban installed, auto-security updates, non-standard SSH port instead of 22 such as 44444, logwatch setup and emailed daily, etc)</li>
+<li>Does the server create backups of databases used for app storage?  Are they daily?</li>
+<li>Does the server allow root or password-based login attempts?  If so, disallow - SSH access only.</li>
+<li>Are other developers using an environment that closely mimics production and each other? (e.g. by using Vagrant/Docker or having the exact same workstations and package managers?)</li>
+<li>Are developers using git-extras and have common aliases for <code>git push</code>, <code>git commit</code>, and <code>git add .</code>?</li>
+<li>Are all outbound emails, sent by both @company.com Gmail/Postmark/Mandrill DKIM/SPF signed and DMARC compliant?  We need emails to land in users inboxes.</li>
+<li>Is our API designed properly with versioning, error handling, proper response codes, ease of integration, secure, and is documented?  Is the documentation up to date?</li>
+<li>Are we monitoring our server uptime and downtime?  What parts of our application are the slowest to respond?  What parts of our application take up the most CPU usage?  Investigate why and optimize.  Things need to be lightning fast, everywhere, always.  Speed wins.</li>
+</ul>
+
+<h2>
+<a id="design-standards" class="anchor" href="#design-standards" aria-hidden="true"><span class="octicon octicon-link"></span></a>Design Standards</h2>
+
+<ul>
+<li>Do not create mockups (in other words don't waste time conversing with developers or the client about how something should look, tell them how it is going to look) - designers should be experts and know exactly what to design without needing a mockup.  Based off R&amp;D and market research, they, as designers, have the responsibility for this vision.</li>
+<li>Designs must be responsive and created with Sketch</li>
+<li>Designs must be exported with retina support (e.g. @1.5x, <a href="https://github.com/2x" class="user-mention">@2x</a>, <a href="https://github.com/3x" class="user-mention">@3x</a> versions)</li>
+<li>Designs must be synced to development team via Dropbox, all changes need to be published and a changelog must be sent to developers upon changes</li>
+<li>Developers must have experience with Sketch, in case the need of a quick export or to check the rgba/hex values during integration of a design.</li>
+<li>Are our assets exported and progressively optimized (and any other optimal reduction of file size taken place)?</li>
+</ul>
+
+<h2>
+<a id="project-management-standards" class="anchor" href="#project-management-standards" aria-hidden="true"><span class="octicon octicon-link"></span></a>Project Management Standards</h2>
+
+<ul>
+<li>Have we defined our team's mission with our team itself - and has everyone come to an agreement and signed the mission with their dedication to it?  Is the client in on this mission too?</li>
+<li>Is our team reminded of its mission weekly?  Do our team members have a form of communication to the PM as to what their thoughts are towards this mission?</li>
+<li>Are we constantly asking what do people dislike most about XYZ?  If not, we will never show them we listen to their concerns.</li>
+<li>Are we using common sense in our communications and interactions with the team and customer/client?</li>
+<li>Are we keeping in check with existing commitments made by team members, by the client, by ourself?</li>
+<li>Is any work (e.g. a product feature) being worked on a complete waste of time and will not contribute to a positive end result?</li>
+<li>Are we continuously reviewing offers and satisfaction levels based off requests and communications made?</li>
+<li>What is the team's current mood?  What has their mood been in the past?  How has it related to productivity and growth, success, etc?</li>
+<li>What is the customer or client's mood?  How has their mood related to their purchases, or use of the app?  How has their mood related to their communication level?  When they are distant - does that mean they are unhappy?  Communication issues are extremely common.</li>
+<li>Are we constantly showing continuous progress?  If not, or if we don't think we can - think of visuals or other meaningful ways to show progress (e.g. screenshots, a quick video narrating what you're working on - even if its showing code, or a feature work in progress, etc)</li>
+<li>Keep the burn rate low - do not use or pay for services you don't use - or don't need - or don't directly impact the project</li>
+<li>Weekly meetings with the client in-person/face-to-face using Google Hangouts</li>
+<li>Continuously send and respond to emails, as soon as you see them - even if it just to say "OK got it, expect a response soon"</li>
+<li>Are our developers and designers pushing work daily?  Are we seeing the work and not just hearing it has been done?  Seeing is believing.</li>
+<li>Customer and client satisfaction is the most impactful over all other standards</li>
+<li>Are all issues that developers and designers are working on in GitHub and well-documented?</li>
+<li>Is the client or customer aware at all times of any improvements, fixes, or changes being made to the app?</li>
+<li>Do we have milestones in GitHub with a timeline of issues to finish by a deadline?</li>
+<li>Are our labels in GitHub fun, meaningful, and relevant?</li>
+<li>Is everything quickly readable?</li>
+<li>Are issues being referenced to one another when appropriate?</li>
+<li>Does a team member always have a plate of at least 2-3 items assigned to them in GitHub at a time?</li>
+<li>Does the project manager frequently comment on issues, even if it's just to say "good job?" or "I think the pixels are in this are wrong, please talk to designer", or "The code here needs refactored, its a mess"</li>
+<li>Is the communication in the Slack room with the client (or is our communication with our customer over email too confusing or wordy?).  If so, it gives the impression we are unorganized, not succinct, and don't know how to get our point across in an analogous way.  Cut out as many words as possible when communicating with the client or customer - we want to seem as confident, focused, and clear as possible.  Are we actually answering their questions?</li>
+<li>Are we charging what we're worth?  Are we paying ourselves what we deserve and need?</li>
+<li>How satisfied is the client/customer? (e.g. Net Promoter score - survey - weekly/monthly)</li>
+</ul>
+
+<h2>
+<a id="launch-standards" class="anchor" href="#launch-standards" aria-hidden="true"><span class="octicon octicon-link"></span></a>Launch Standards</h2>
+
+<ul>
+<li>Did we have a mailing list or splash page in advance?  Is our message ready for them?  Does our message make sense?</li>
+<li>What press will we contact?</li>
+<li>Who or what marketing effort will we leverage to give the project the initial push it needs - to acquire users in order to validate the product is a good market-fit?</li>
+<li>Are we even ready to launch?  Does the product even make sense to people that haven't seen it before?</li>
+<li>When we explain our product to someone else, or show them a demo - do they simply say "cool" or "OK"?  Or are they asking lots of questions - if they are, it means we're doing something right, so listen to them.  What were their questions and how can we answer it ahead of time for everyone else like them?</li>
+<li>How will our initial launch convert people to users?  Will we blast out 1000 emails and get no users?  If we can envision this occurring, what can we change that will fix this?</li>
+<li>Is our explanation of the product too complicated?  Do we compare ourselves to competitors as to why we're better?  Or what features we have that they don't have?  Or what new offerings we bring that are value-adds for users?</li>
+</ul>
+
+<h2>
+<a id="testing-standards" class="anchor" href="#testing-standards" aria-hidden="true"><span class="octicon octicon-link"></span></a>Testing Standards</h2>
+
+<ul>
+<li>Does our production server get tested before deployment finishes?</li>
+<li>Are tests even being written?</li>
+<li>Are we actively deploying our test cases to production or keeping them in development branch only?</li>
+<li>Are tests above 50%?  If so, how could we get them to 75%?  If they are at 75%, what is preventing them from being 100%?</li>
+<li>Are we using the best testing tools available?</li>
+</ul>
+
+<h2>
+<a id="analysis-standards" class="anchor" href="#analysis-standards" aria-hidden="true"><span class="octicon octicon-link"></span></a>Analysis Standards</h2>
+
+<ul>
+<li>Do we have a fun dashboard to look at with metrics?</li>
+<li>Do we have a bot automated to make a "ding" noise whenever a new customer or user signs up?  Do we get a "ding" when our client/customer says we're doing a good job?  Do we get a "ding" when we're not doing good?  How do we reflect, reward, or scold ourselves when this "ding" happens?</li>
+<li>How frequently are the lead developers and designers reviewing code, pull requests, merges, and changelogs?</li>
+<li>How frequently are the lead designers inspecting what developers implement to ensure quality and envisioned interaction is achieved?</li>
+<li>Are all clicks from emails user-trackable with Events?</li>
+<li>Are we looking at our funnel, and saying, OK here is the start event, here is the end event for our conversion to be "successful" - now what are the common steps in between (e.g. what is the path a user takes from Visiting a site to Checking out - and how can we simplify it more - or what road blocks are users running into)?</li>
+<li>Is our funnel optimized?</li>
+<li>How are our A/B tests performing?</li>
+<li>Are we running at least 5 experiments/tests a week?</li>
+</ul>
+
+<h2>
+<a id="growth-standards" class="anchor" href="#growth-standards" aria-hidden="true"><span class="octicon octicon-link"></span></a>Growth Standards</h2>
+
+<ul>
+<li>How is our search engine optimization?  Are all pages recorded in a sitemap?  Is it submitted to Google?  Do all pages have Schema.org schemas (e.g. Product, Recipe, Event)? Are page titles and descriptions simple and relevant? (max 55 characters for title and 115 for description)</li>
+<li>Are we blogging for long-term growth and to create meaningful value with our market, besides what product/service that our app offers?  Using a service like Amazon Mechanical Turk or Fiverr to write unique relevant content with keywords?</li>
+<li>Are we experimenting enough?  Do our experiments make sense and have we thought them through?</li>
+<li>Are we paying attention to user retention?  Are we targeting segments of customers that have been inactive to figure out why?  Are we asking or reviewing what the power-users are doing on the app and how to make that experience easier?  Power-users are a very special and meaningful user segment, possibly the most meaningful - they will most likely pay the most.  Are we automating our messages to users with a service like Intercom - and not coming across like spammers?</li>
+<li>Are we doing research as to what strategies have worked for other similar companies to attract users?</li>
+</ul>
+
+<h2>
+<a id="funding-standards" class="anchor" href="#funding-standards" aria-hidden="true"><span class="octicon octicon-link"></span></a>Funding Standards</h2>
+
+<ul>
+<li>Always, always bill upon time, not upon scope of work.</li>
+<li>If you're looking for funding - the only reason should be to accelerate your growth.  It should not just be to have money for some project.</li>
+<li>If it is for any other reason, such as a lack of funds to pay existing employees, then your burn rate is too high and you aren't being scrappy enough.  If you have to hire developers or designers, could you not learn to code yourself?  If so, would you be wasting your time you could spend working with customers?  It's a delicate balance, with an end result, or cyclical result involving lots of risk and little potential of reward.</li>
+<li>Are you going to the right investors?  Will they help you besides just giving you a bucket of money to put in your bank account?</li>
+<li>Usually you can bootstrap the project entirely, but only if you are smart enough.  The topic of bootstrapped/lifestyle vs. VC funding can be handled in another medium.</li>
+<li>Can we get 3 clients to pay $K up-front that will support us?  Can we reward them for this if things work out?  Do they get a refund if it doesn't?</li>
+<li>How can we sell vaporware and deliver quickly?</li>
+</ul>
+
+<h2>
+<a id="random-standards" class="anchor" href="#random-standards" aria-hidden="true"><span class="octicon octicon-link"></span></a>Random Standards</h2>
+
+<ul>
+<li>Are our developers, designer, and project manager constantly making time for improvement?  Are they thinking of how to help each other?  Are they spending time learning on their own?  Are developers contributing to open source or writing blog articles about technical concepts that they solved or did research and have findings to share upon?  Are designers publishing their work and drawing inspiration from others?</li>
+<li>VPN's are not needed - they slow things down and cause issues with deployment - developers should be the ones using VPN's and a secure network, not the server.  You're only as fast as your slowest link.</li>
+<li>Are we having fun?  If not, then how can we make this project fun?  Can we add whimsys somehow?  Can we make the brand emotionally attractive to us and our customers at the same time?</li>
+<li>DevOps teams are not needed and slow things down - most of the time developers can do things themselves, or if something critical were to happen - developers should be full-stack experts and know how to fix it themselves.  Developers are savvy, scrappy folks that like to do things quick.  They read and implement best practices in the industry - they are the ones that know their stack the best and know how to implement and iterate the fastest - to satisfy customers and clients - anything that gets in their way is a roadblock and should be demolished.</li>
+<li>Does our team make sense?  Is everyone up to par on our standards?  Are we constantly having to code review and make the same code comments?  Are developers not making use of linters or writing tests when appropriate?  Are developers not simply thinking of the app as a whole while writing a feature - thus in term affecting 10x other things negatively?</li>
+<li>If a developer sees something wrong - do they let it go by, lazily, or do they actually take the time and care to implement a fix, even if it's just a <img class="emoji" title=":lipstick:" alt=":lipstick:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f484.png" height="20" width="20" align="absmiddle"> code cleanup or DRY refactoring, or deleting of code that is no longer used?</li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/niftylettuce/rapid-mvp-standards">Rapid-mvp-standards</a> is maintained by <a href="https://github.com/niftylettuce">niftylettuce</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-70378015-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
