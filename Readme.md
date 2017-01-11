@@ -93,7 +93,7 @@ Total estimated yearly costs: $562 ($45\*12 + $22)<br />
 * Developers must use vim (with as many plugins as possible) - no other IDE's should be allowed (a developer's finger muscle memory is critical to fast-paced coding &ndash; point-and-click is simply wrong and not optimal for productivity).  Atom may be used, however plugins are necessity.
 * SSL encryption regardless if the service needs to be secure or not, encryption is important
 * If the service includes anything financially related, use a Green EV SSL cert
-* For code commits, use emoji prefixes, such as :book: for documentation, :bug: for bugs, :ledger: for renaming/moving/copying of files, :bulb: for features, and :lipstick: for code style fixes/refactoring
+* For code commits, use emoji prefixes, such as :book: for documentation, :bug: for bugs, :ledger: for renaming/moving/copying of files, :bulb: for features, and :lipstick: for code style fixes/refactoring (for a full github list, see http://www.webpagefx.com/tools/emoji-cheat-sheet/)
 * Deployments should have zero downtime
 * Deployments should occur with tagged versions (e.g. `v0.1.0`)
 * Automated jobs should be managed with lock files or a system that spawns workers with specific deployment versions
